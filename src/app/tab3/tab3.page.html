@@ -1,17 +1,33 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Danger Zone
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Danger Zone</ion-card-subtitle>
+      <ion-card-title>รถไฟชนกัน</ion-card-title>
+    </ion-card-header>
+  
+    <img src="https://i.pinimg.com/736x/ab/9e/53/ab9e53b748f4a45b1aaad922d0788d54.jpg" alt="">
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>เกม</ion-label>
+      <ion-button fill="outline" slot="end">ตาย</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      คนร่านต้องถูกทำโทษ
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  
+  
 </ion-content>
